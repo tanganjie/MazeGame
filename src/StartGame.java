@@ -7,7 +7,6 @@ import java.awt.*;
  * 主游戏控制类
  */
 public class StartGame extends JFrame{
-	
     private static MazeBox nowBox = new MazeBox(Enums.color.NOW);
 
 	final static JLabel info = new JLabel("谢谢");
